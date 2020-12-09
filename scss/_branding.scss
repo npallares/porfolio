@@ -1,0 +1,90 @@
+/*----------------------BRANDING--2--------------*/
+#branding-article{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    /*border:2px solid red;*/
+    margin-top: 25px;
+}
+
+#branding-article__contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid blue; */
+    border-radius: 15px;
+    width: 850px;
+    box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+#branding_img{
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 270px;
+    width: 270px;
+    border-radius: 15px;
+}
+
+#branding-contenedor__texto{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: initial;
+ align-content: flex-start;
+ /* border:solid 1px green; */
+ width: 60%;
+
+}
+
+#branding_titulo{
+    padding-left: 15px;
+    height: 80px;
+    width: 100%;
+    font-family: 'Staatliches', cursive;
+    font-size: 65pt;
+    /* border:solid 1px red; */
+    margin-top: 15px;
+    margin-left: -3px;
+
+}
+
+#branding_texto{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 90%;
+    /* border: 2px solid blue; */
+    text-align: left;
+    font-size:8pt;
+    color: rgb(68, 68, 68);
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+     
+}
+
+#branding-boton__contenedor{
+    /* border: solid 1px rosybrown; */
+    width: 250px;
+    height: 40px;
+    margin: 10px 5px 5px 0px;
+    padding-left: 15px;
+}
+
+#branding_boton{
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: 'Staatliches', cursive;
+  display: block;
+  width: 90pt;
+  height: 30pt;
+  color: floralwhite;
+  cursor: pointer;
+  background: #000000;
+  border-radius: 0.25rem;
+  border: 0; 
+}
+
+#branding_boton:hover {
+    color: rgb(235, 221, 36);
+}

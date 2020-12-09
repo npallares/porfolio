@@ -1,0 +1,98 @@
+/*----------------------CONTACTO--------------*/
+
+
+
+input{
+    border: 1px, solid ;
+    color: dimgray;
+    margin: 0;
+    padding: 0;
+    height: 25px;
+    width: 300px;
+     
+ }
+
+input[type=submit] {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Staatliches', cursive;
+    display: block;
+    width: 90pt;
+    height: 25pt;
+    color: floralwhite;
+    padding:5px 15px; 
+    margin: 10px 5px 5px 0px;
+    cursor: pointer;
+    background: #000000; 
+    border:0 none;
+}
+
+.contacto__contenedor--general{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border:1px solid green; */
+    width: 100%;
+}
+
+.contacto__contenedor{
+    width: 350px;
+    margin: 40px 0 0 20px;
+    /* border: 1px solid red; */
+}
+
+.contacto__boton:hover{
+    transition: 0.5s;
+    background: #383838;
+}
+
+.contacto__txtContacto{
+   display: inline;
+   width: 400px;
+   font-size: 15px;
+   color: rgb(49, 49, 49);
+   padding: 0;
+   margin: 10px 0px 0px 0px;
+   font-family: 'Staatliches', cursive;
+   letter-spacing: 0.5px;
+}
+
+.contacto__txtContacto--titulo{
+    display: block;
+    font-size: 50px;
+    color: rgb(49, 49, 49);
+    padding: 0;
+    margin: 0px 0px 20px -5px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 0.5px;
+ }
+
+
+.contacto__formulario--txtForm {
+   display: block;
+   font-size: 15px;
+   color: rgb(49, 49, 49);
+   padding: 0;
+   margin: 10px 0px 0px 0px;
+   font-family: 'Staatliches', cursive;
+   letter-spacing: 0.5px;
+   
+}
+
+.contacto_formulario--caja{
+    height: 80px;
+    width: 295px;
+    resize: none;
+    text-decoration: none;
+    text-align: start;
+    font-size: 13px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: dimgray;
+}
+
+.contacto_img{
+   /* border: 1px solid blue; */
+   width: 500px;
+   margin: 50px 20px 0 0;
+   height: auto;
+}

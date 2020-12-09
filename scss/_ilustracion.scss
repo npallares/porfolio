@@ -1,0 +1,19 @@
+/*----------------------ILUSTRACION--------------*/
+
+.ilustracion{
+    size: initial;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 5px;
+    column-gap: 5px;
+    margin: 5px;
+}
+
+.ilustracion__imagenes {
+    width: 100%; 
+}
+
+.ilustracion__imagenes:hover {
+    transform: scale(1.1,1.1);
+    transition: 0.5s;
+}

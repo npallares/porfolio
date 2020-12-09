@@ -1,0 +1,57 @@
+/*----------------------CARRITO--------------*/
+
+
+/*------------------- LISTA 1 ---------------*/
+$lista1: red, green, blue;
+
+$primario: nth($lista1, 1);
+
+.lista1{
+  color: $primario;
+  font-size: 40px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Anton', sans-serif;
+}
+
+/*------------------- IF ---------------*/
+
+$color:amarillo;
+
+.color{
+  @if($color==rojo){
+      color:red;  
+  }@else{
+    color: blue;  
+  }
+
+  font-size: 40px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Anton', sans-serif;
+
+}
+
+#construccion{
+    text-align: left;
+    color: black;
+    font-size: 150pt;
+    font-family: 'Anton', sans-serif;
+    margin: 50px 0 0 100px;
+ }
+
+#carousel_css1{
+    height: 40vw;
+   /*border: 1px solid red;*/
+ }
+
+.lista1{
+  color: $primario;
+  font-size: 40px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Anton', sans-serif;
+}

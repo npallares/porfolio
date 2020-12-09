@@ -1,0 +1,69 @@
+
+/*--------------------------- producto ---------------------------- */  
+
+.productos__txt--Bienvenida{
+    display: block;
+    font-size:100%;
+    color: rgb(49, 49, 49);
+    padding: 0;
+    margin: 30px 0px 20px -5px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.productos__menu{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.productos__txt--secciones{
+    display: inline;
+    font-size:60%;
+    color: rgb(49, 49, 49);
+    padding: 0;
+    margin: 0 15px 25px 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+
+.productos__contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.productos_articulo{
+    width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.productos_articulo--img{
+    width: 100%;
+    margin: 0.25%;
+    display: inline;
+}
+
+.productos_articulo--descripcion{
+    display: inline;
+    margin: 1px;
+    color: dimgray;  
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    position: relative;
+    font-weight: 100;
+}
+
+.productos_articulo--precio{
+    display: inline;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 100;
+    font-size: 13pt;
+    letter-spacing: -2px;
+    color: dimgray;
+}
